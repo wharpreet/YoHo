@@ -5,11 +5,10 @@
 #include <ESP8266mDNS.h>
 #include <PubSubClient.h>
 
-const char* mqtt_server_host = "mqtt.bhukhad.com";
-const char* mqttuser = "yoho";
-const char* mqttpass = "yohomqtttest";
+const char* mqtt_server_host = "<mqtt host>";
+const char* mqttuser = "<USERNAME>";
+const char* mqttpass = "<PASSWORD>";
 byte mac[6];
-const char* fingerprint = "BF:65:F9:37:61:92:68:DC:AB:D6:6F:A2:B3:A5:B6:16:AC:E0:1B:5E";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
